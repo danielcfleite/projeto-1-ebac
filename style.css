@@ -236,6 +236,7 @@ form button {
   transition: 0.3s;
   background-color: #302420;
   color: white;
+  border: 1px solid transparent;
 }
 
 form button:hover {
