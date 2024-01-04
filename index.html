@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="social-media">
+      <img src="./assets/logo.png" alt="" id="logo" />
+      <div class="social-media-links">
+        <a href="#" class="instagram">instagram</a>
+        <a href="#" class="twitter">twitter</a>
+        <a href="#" class="tiktok">tiktok</a>
+      </div>
+    </div>
+    <div class="content">
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">home</a>
+            <a href="#about">quem somos</a>
+            <a href="#sign-in">assine</a>
+          </li>
+        </ul>
+        <div class="marketing-buttons">
+          <button>button</button>
+          <button>button</button>
+        </div>
+      </nav>
+      <div id="home">
+        <div class="text">
+          <h1>Take a Break!</h1>
+          <p>
+            Break é um aplicativo completo de bem-estar psicológico e
+            espiritual. <br />
+            Nossa missão é criar um ambiente acolhedor e aconchegante para
+            nossos usuários, facilitando suas jornadas e diminuindo a correria
+            do dia a dia.
+          </p>
+          <br />
+          <p>
+            Oferecendo meditações guiadas, cursos de filosofia, ferramentas para
+            o sono e o bem-estar, somos a ferramenta mais completa do mercado.
+            Sendo guiada por dados e feedback de nossos usuários, hoje contamos
+            com um sistema completo para alivar seus stress.
+          </p>
+        </div>
+        <img
+          src="./assets/background-dark.jpg"
+          alt=""
+          class="image-introduction"
+        />
+      </div>
+      <div id="about">
+        <div class="about-item about-sleep">
+          <div class="about-item-text">
+            <h3>Sono</h3>
+            <p>
+              Break mede dados sobre seu sono como batimento cardiáco (smart
+              watch necessário), sons feitos durante a noite e a temperatura do
+              ambiente para te entregar um dashboard completo da qualidade e
+              duração do sono.Com esses dados, oferecemos as melhores tecnicas
+              para que você tenha mais disposição
+            </p>
+          </div>
+          <img src="./assets/sleep.jpeg" alt="" />
+        </div>
+        <div class="about-item about-meditation">
+          <div class="about-item-text">
+            <h3>Meditação</h3>
+            <p>
+              Temos uma comunidade com <strong>mais de 300</strong> guias de
+              meditação guiadas, com práticas para qualquer situação.
+            </p>
+          </div>
+          <img src="./assets/meditation.jpeg" alt="" />
+        </div>
+        <div class="about-item about-well-being">
+          <div class="about-item-text">
+            <h3>Bem-estar</h3>
+            <p>
+              Matenha um diário do seu humor, qualidade do sono, batimento
+              cardiáco e muito mais e receba feedbacks de como mudar
+              concretamente a sua saúde psicológica e bem-estar
+            </p>
+          </div>
+          <img src="./assets/well-being.jpeg" alt="" />
+        </div>
+      </div>
+      <div id="sign-in">
+        <h3>Faça parte da nossa comunidade!</h3>
+        <p>
+          Nossa comunidade conta com pessoas do mundo inteiro com o mesmo
+          objetivo: tornar-se um ser humano mais centrado, equilibrado e
+          saudável. O primeiro grande passo é a conexão com pessoas que veêm o
+          mundo como você, ou que tem o que lhe ensinar.
+        </p>
+        <form>
+          <div class="form-item">
+            <label for="name">Nome</label>
+            <input type="text" id="name" placeholder="Nome Completo" required />
+          </div>
+          <br />
+          <div class="form-item">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              required
+              placeholder="exemplo@email.com"
+            />
+          </div>
+          <br />
+          <div class="form-item">
+            <label for="password">Senha</label>
+            <input type="password" id="password" required placeholder="senha" />
+          </div>
+          <br />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+      <footer>
+        Projeto desenvolvido em HTML e CSS para o curso Desenvolvedor Full Stack
+        Java da EBAC
+      </footer>
+    </div>
+  </body>
+</html>
